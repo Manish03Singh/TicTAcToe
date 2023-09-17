@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+*,*::before,*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'sans-serif';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./asset/gradient-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.game-info{
+  color:white;
+  position:absolute;
+  top:3rem;
+  left:50%;
+  transform:translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.5rem 3rem;
+  /* text-align:center; */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tic-tac-toe{
+  width:90%;
+  max-width:20rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  aspect-ratio: 1/1;
+}
+
+
+.box{
+  position:relative;
+  width:100%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  font-size: 3rem;
+  color:white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.box0, .box1, .box3, .box4{
+  border-right:2px solid white;
+  border-bottom:2px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box2, .box5{
+  border-bottom: 2px solid white;
+}
+
+.box6, .box7{
+  border-right:2px solid white;
+}
+
+.btn{
+  color:white;
+  position: absolute;
+  bottom:3rem;
+  left:50%;
+  transform:translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.5rem 2rem;
+  cursor:pointer;
+  display: none;
+}
+
+.btn.active{
+  display: flex;
+}
+
+.win{
+  background-color: rgba(0, 255, 0, 0.3);
 }
