@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TicTacToe/static/css/main.06e3d612.css",
+    "main.js": "/TicTacToe/static/js/main.d8ab7c8b.js",
+    "static/js/787.6b0bed1b.chunk.js": "/TicTacToe/static/js/787.6b0bed1b.chunk.js",
+    "static/media/gradient-bg.jpg": "/TicTacToe/static/media/gradient-bg.a7b0d7651793412989a0.jpg",
+    "index.html": "/TicTacToe/index.html",
+    "main.06e3d612.css.map": "/TicTacToe/static/css/main.06e3d612.css.map",
+    "main.d8ab7c8b.js.map": "/TicTacToe/static/js/main.d8ab7c8b.js.map",
+    "787.6b0bed1b.chunk.js.map": "/TicTacToe/static/js/787.6b0bed1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06e3d612.css",
+    "static/js/main.d8ab7c8b.js"
+  ]
+}
