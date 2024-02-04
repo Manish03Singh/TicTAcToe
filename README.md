@@ -1,5 +1,8 @@
 ## React Tic Tac Toe
+
 <p>Visit live <a href='https://manish03singh.github.io/TicTacToe/' target='_blank'>website</a></p>
+<img src="./public/website.png" alt="image"/>
+
 <p>Welcome to React Tic Tac Toe - a simple web application where two players can engage in a classic game of Tic Tac Toe.</p>
 
 # Usage
