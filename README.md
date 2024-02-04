@@ -12,4 +12,5 @@
 <p>Enjoy playing Tic Tac Toe with a friend!</p>
 
 <br>
+# Connect
 <p>Visit me on <a href='https://www.linkedin.com/in/manish-kumar-singh-12a28a190/' target='_blank'>linkedin</a> and <a href='https://twitter.com/Manish_03_Singh' target='_blank'>twitter</a></p>
